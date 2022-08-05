@@ -5,11 +5,13 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* SOLUTION */
+.main {
+	margin: 32px;
+	display: flex;
+	gap: 52px;
+	justify-content: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.text {
+	width: 200px;
+	text-align: center;
 }
